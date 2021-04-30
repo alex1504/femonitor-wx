@@ -1,0 +1,18 @@
+view{
+  line-height: 1.5;
+}
+.container {
+  padding: 40rpx;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.m-unit{
+  margin-top: 40rpx;
+}
+
+.m-unit button{
+  margin-bottom: 20rpx;
+}

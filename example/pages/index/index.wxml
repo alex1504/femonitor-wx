@@ -1,0 +1,34 @@
+<view class="container" catchtap="onElementTrack">
+  <view>
+    <view class="m-unit">
+      <view>jsError</view>
+      <view>
+        <button bindtap="onJsError">test</button>
+      </view>
+    </view>
+
+    <view class="m-unit">
+      <view>promise error</view>
+      <view>
+        <button bindtap="onPromiseError">test</button>
+      </view>
+    </view>
+
+    <view class="m-unit">
+      <view>httpError</view>
+      <view>
+        <button bindtap="onHttpError">test</button>
+      </view>
+    </view>
+
+    <view class="m-unit">
+      <view>slowHttpRequest</view>
+      <view>● httpTimeout param is set to 10ms in app.js</view>
+      <view>
+        <button bindtap="onTestSlowHttpRequest">test</button>
+      </view>
+    </view>
+
+    <image src="https://baidu.com/undefined.jpg" binderror="onLoadImageError"></image>
+  </view>
+</view>

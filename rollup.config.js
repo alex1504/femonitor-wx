@@ -9,10 +9,20 @@ import { terser } from "rollup-plugin-terser";
 /* eslint-disable import/no-default-export */
 const config = {
   input: "./src/index.ts",
-  output: {
-    name: "WxFemonitor",
-    sourcemap: !process.env.MINIFY
-  },
+  output: [
+    {
+      file: "dist/index.umd.js",
+      format: "umd",
+      name: "WxFemonitor",
+      sourcemap: !process.env.MINIFY
+    },
+    {
+      file: "example/lib/femonitor-wx/index.umd.js",
+      format: "umd",
+      name: "WxFemonitor",
+      sourcemap: !process.env.MINIFY
+    }
+  ],
   external: [], // eslint-disable-line global-require
   plugins: [
     typescript({

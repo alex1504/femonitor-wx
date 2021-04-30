@@ -23,7 +23,7 @@
     "dev": "cross-env NODE_ENV=development DEBUG=1 jest",
     "build": "npm run lint && npm run clean && npm run build:esm && npm run build:umd && npm run build:min",
     "build:esm": "cross-env NODE_ENV=production EXTERNAL=1 rollup -c -f esm -o dist/index.js",
-    "watch": "cross-env NODE_ENV=production EXTERNAL=1 rollup -c --watch -f umd -o dist/index.umd.js",
+    "watch": "cross-env NODE_ENV=production EXTERNAL=1 rollup -c --watch -f umd",
     "build:umd": "cross-env NODE_ENV=production rollup -c -f umd -o dist/index.umd.js",
     "build:min": "cross-env NODE_ENV=production MINIFY=1 rollup -c -f umd -o dist/index.min.js",
     "lint": "eslint \"src/**/*\" \"test/**/*\"",
