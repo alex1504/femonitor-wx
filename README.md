@@ -68,7 +68,7 @@ export const defaultOptions = {
 | reqError             | Network request error                                                   |
 | performanceInfoReady | Page performance data is ready                                          |
 | slowHttpRequest      | Emit when http request cost time larger than timeout httpTimeout        |
-| event                | Emit for all events above                                               |
+| event                | Includes all events above                                               |
 
 # Development
 
