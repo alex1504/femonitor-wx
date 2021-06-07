@@ -1,6 +1,13 @@
 # Description
 A SDK for wx miniprogramme error and performance monitor, using event subscription.
 
+# Screenshot
+![screenshot](https://cdn.jsdelivr.net/gh/sandy1504/media@master/20210407/screenshot.3vr18f6my320.gif)
+
+# Example
+Click this [here](https://developers.weixin.qq.com/s/eh8GtTm37oqB) to open WeChat Mini Program Developer Tool for test
+
+
 # Feature
 - [x] Error observe, includes js error, unhandle rejection error and http error
 - [x] Error filters and error sampling

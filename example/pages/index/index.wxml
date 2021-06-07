@@ -28,7 +28,5 @@
         <button bindtap="onTestSlowHttpRequest">test</button>
       </view>
     </view>
-
-    <image src="https://baidu.com/undefined.jpg" binderror="onLoadImageError"></image>
   </view>
 </view>

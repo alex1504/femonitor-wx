@@ -40,8 +40,8 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.16.1",
-  "appid": "wx3fb66983e0eac46a",
-  "projectname": "miniprogram-1",
+  "appid": "touristappid",
+  "projectname": "femonitor-wx",
   "debugOptions": {
     "hidedInDevtools": []
   },

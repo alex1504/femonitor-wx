@@ -22,6 +22,5 @@ Page({
     wx.request({
       url: `https://www.baidu.com`
     });
-  },
-  onLoadImageError() {}
+  }
 });
